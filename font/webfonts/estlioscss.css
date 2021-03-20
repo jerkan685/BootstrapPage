@@ -1,0 +1,109 @@
+html{
+    font-size: 15px;
+}
+.bienvenidos{
+    background: url("../imagen/fondo-bienvenidos.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.navbar-toggler{
+    color:#fff
+}
+.encabezados{
+    background: rgb(22, 21, 21); 
+}
+.navbar-light .navbar-brand {
+    font-size: 1.6rem;
+    color: #f8f9fa;
+    text-transform: uppercase;}
+    .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+        color: rgba(255, 252, 252, 0.9);
+    }
+    .button{
+        color: white;
+    }
+    .nav-link {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: #f8f9fa;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #f8f9fa;
+        text-align: center;
+        margin: .2rem ;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #f8f9fa;
+    }
+    .navbar-toggler{
+        
+        color: #fff !important;
+    }
+    .nav-ini{
+        background: #0A6D05;
+        
+    }
+    .texto-bienvenido{
+        color: #fff;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .btn-primary {
+        
+        background-color: #24CF1C;
+        border-color: #24CF1C;
+        transition: all .5s ease;
+        text-transform: uppercase;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #94E2F0;
+    }
+    /* Estilos bloque quienes somos*/
+    .quienes-somos{
+        background: #0D39AF;
+        color: #fff;
+        
+    }
+
+    .btn-secundary{
+        background: #011139;
+        color: aliceblue;
+    }
+    .servicios .fa, .fas , .far{
+        color: #0B19BE;
+        font-size: 6rem;
+
+    }
+    .ultimos-proyectos{
+        background: #424141;
+        color: #fff;
+    }
+    .ultimos-proyectos a:hover img{
+        transform: scale(1.5);
+    }
+    .ultimos-proyectos img{
+        transition: all .5s ease;
+    }
+    .ultimos-proyectos a{
+        display: block;
+        overflow: hidden;
+        margin-bottom: 1.5rem;
+    }
+    .footer{
+        color: #fff;
+        background: #222222;
+    }
+
+    .bti{
+        color: black;
+        font-size: 4rem;
+    }
+  .imag{
+      background: blanchedalmond;
+  }
